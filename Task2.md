@@ -9,7 +9,7 @@
     ( https://sriraghu.com/2017/03/11/opencv-in-android-an-introduction-part-1/ ).
     and [ Part 2 ]
     ( https://sriraghu.com/2017/03/23/opencv-in-android-an-introduction-part-22/ ).
-    2. Using openCV in applications , here is a cool book. 
+    2. Using openCV in applications , here is a cool book Android openCv programming by example. 
     3. Finish the first 7 modules of [ Introduction to computer vision ]
     ( https://www.udacity.com/course/introduction-to-computer-vision--ud810/ ).
    ### Optional 
