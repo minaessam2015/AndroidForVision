@@ -1,4 +1,4 @@
-//this version is 295 ms 
+//this version is 233 ms 
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
 #include<iostream>
@@ -473,21 +473,21 @@ int main() {
 	//  Layer        kernel    stride      output shape
 	//	-------------------------------------------- -
 	//Input(416,416,3)
-	//	Convolution    3×3      1      (416, 416, 16)
-	//	MaxPooling     2×2      2      (208, 208, 16)
-	//	Convolution    3×3      1      (208, 208, 32)
-	//	MaxPooling     2×2      2      (104, 104, 32)
-	//	Convolution    3×3      1      (104, 104, 64)
-	//	MaxPooling     2×2      2      (52, 52, 64)
-	//	Convolution    3×3      1      (52, 52, 128)
-	//	MaxPooling     2×2      2      (26, 26, 128)
-	//	Convolution    3×3      1      (26, 26, 256)
-	//	MaxPooling     2×2      2      (13, 13, 256)
-	//	Convolution    3×3      1      (13, 13, 512)
-	//	MaxPooling     2×2      1      (13, 13, 512)
-	//	Convolution    3×3      1      (13, 13, 1024)
-	//	Convolution    3×3      1      (13, 13, 1024)
-	//	Convolution    1×1      1      (13, 13, 125)
+	//	Convolution    3Ã—3      1      (416, 416, 16)
+	//	MaxPooling     2Ã—2      2      (208, 208, 16)
+	//	Convolution    3Ã—3      1      (208, 208, 32)
+	//	MaxPooling     2Ã—2      2      (104, 104, 32)
+	//	Convolution    3Ã—3      1      (104, 104, 64)
+	//	MaxPooling     2Ã—2      2      (52, 52, 64)
+	//	Convolution    3Ã—3      1      (52, 52, 128)
+	//	MaxPooling     2Ã—2      2      (26, 26, 128)
+	//	Convolution    3Ã—3      1      (26, 26, 256)
+	//	MaxPooling     2Ã—2      2      (13, 13, 256)
+	//	Convolution    3Ã—3      1      (13, 13, 512)
+	//	MaxPooling     2Ã—2      1      (13, 13, 512)
+	//	Convolution    3Ã—3      1      (13, 13, 1024)
+	//	Convolution    3Ã—3      1      (13, 13, 1024)
+	//	Convolution    1Ã—1      1      (13, 13, 125)
 	//	-------------------------------------------- -
 	//all MAX POOLING is valid padding except last one but padding = 0 
 	//all CONV are SAME padding with p = 1
@@ -1436,7 +1436,7 @@ int main() {
 
 		leaky_relu_v4 << <dim3(numBlocks[0], numBlocks[0]), 1 >> > (d_conv1Out, .1, 416 * 416 * 16, shift);
 		//----------------------------------------------------max 1----------------------------------------------------------------
-		//	MaxPooling     2×2      2      (208, 208, 16)
+		//	MaxPooling     2Ã—2      2      (208, 208, 16)
 
 
 		cudnnCheck(cudnnPoolingForward(cudnn,
@@ -1491,7 +1491,7 @@ int main() {
 
 		leaky_relu_v4 << <dim3(numBlocks[1], numBlocks[1]), 1 >> > (d_conv2Out, .1, 208 * 208 * 32, shift);
 		//----------------------------------------------------max 2----------------------------------------------------------------
-		//MaxPooling     2×2      2      (104, 104, 32)
+		//MaxPooling     2Ã—2      2      (104, 104, 32)
 
 
 		cudnnCheck(cudnnPoolingForward(cudnn,
@@ -1546,7 +1546,7 @@ int main() {
 
 		leaky_relu_v4 << <dim3(numBlocks[2], numBlocks[2]), 1 >> > (d_conv3Out, .1, 104 * 104 * 64, shift);
 		//----------------------------------------------------max 3----------------------------------------------------------------
-		//MaxPooling     2×2      2      (52, 52, 64)
+		//MaxPooling     2Ã—2      2      (52, 52, 64)
 
 
 
@@ -1609,7 +1609,7 @@ int main() {
 
 		leaky_relu_v4 << <dim3(numBlocks[3], numBlocks[3]), 1 >> > (d_conv4Out, .1, 52 * 52 * 128, shift);
 		//----------------------------------------------------max 4----------------------------------------------------------------
-		//MaxPooling     2×2      2      (26, 26, 128)
+		//MaxPooling     2Ã—2      2      (26, 26, 128)
 
 
 
@@ -1676,7 +1676,7 @@ int main() {
 
 		leaky_relu_v4 << <dim3(numBlocks[4], numBlocks[4]), 1 >> > (d_conv5Out, .1, 26 * 26 * 256, shift);
 		//----------------------------------------------------max 5----------------------------------------------------------------
-		//MaxPooling     2×2      2      (13, 13, 256)
+		//MaxPooling     2Ã—2      2      (13, 13, 256)
 
 
 
@@ -1732,7 +1732,7 @@ int main() {
 
 		leaky_relu_v4 << <dim3(numBlocks[5], numBlocks[5]), 1 >> > (d_conv6Out, .1, 13 * 13 * 512, shift);
 		//----------------------------------------------------max 6----------------------------------------------------------------
-		//MaxPooling     2×2      1      (13, 13, 512)
+		//MaxPooling     2Ã—2      1      (13, 13, 512)
 
 
 
