@@ -1,0 +1,215 @@
+(0008, 0008) Image Type                          CS: ['ORIGINAL', 'PRIMARY', 'M_FFE', 'M', 'FFE']
+(0008, 0012) Instance Creation Date              DA: '20161214'
+(0008, 0013) Instance Creation Time              TM: '130555.560'
+(0008, 0014) Instance Creator UID                UI: 1.3.6.1.4.1.5962.99.1.4264118595.77127834.1481732901187.192.0
+(0008, 0016) SOP Class UID                       UI: MR Image Storage
+(0008, 0018) SOP Instance UID                    UI: 1.3.6.1.4.1.5962.99.1.4264118595.77127834.1481732901187.3362.0
+(0008, 0020) Study Date                          DA: '20161214'
+(0008, 0021) Series Date                         DA: '20161214'
+(0008, 0022) Acquisition Date                    DA: '20161214'
+(0008, 0023) Content Date                        DA: '20161214'
+(0008, 0030) Study Time                          TM: '103746'
+(0008, 0031) Series Time                         TM: '113213.20000'
+(0008, 0032) Acquisition Time                    TM: '113230.71'
+(0008, 0033) Content Time                        TM: '113230.71'
+(0008, 0050) Accession Number                    SH: ''
+(0008, 0060) Modality                            CS: 'MR'
+(0008, 0064) Conversion Type                     CS: ''
+(0008, 0070) Manufacturer                        LO: 'Philips Medical Systems'
+(0008, 0080) Institution Name                    LO: 'Deutsches Herzzentrum Berlin'
+(0008, 0081) Institution Address                 ST: ''
+(0008, 0090) Referring Physician's Name          PN: ''
+(0008, 0100) Code Value                          SH: ''
+(0008, 0102) Coding Scheme Designator            SH: ''
+(0008, 0104) Code Meaning                        LO: ''
+(0008, 1010) Station Name                        SH: 'BLOCH'
+(0008, 1030) Study Description                   LO: 'DSMR-Senc'
+(0008, 1032)  Procedure Code Sequence   1 item(s) ---- 
+   (0008, 0100) Code Value                          SH: '1040'
+   (0008, 0102) Coding Scheme Designator            SH: '99CDS'
+   (0008, 0104) Code Meaning                        LO: 'Magnetic Resonance'
+   (0008, 010b) Context Group Extension Flag        CS: 'N'
+   ---------
+(0008, 103e) Series Description                  LO: 'WIP fSENC rest 2ch CLEAR'
+(0008, 1040) Institutional Department Name       LO: 'MRT 2'
+(0008, 1090) Manufacturer's Model Name           LO: 'Achieva'
+(0008, 1111)  Referenced Performed Procedure Step Sequence   1 item(s) ---- 
+   (0008, 0012) Instance Creation Date              DA: '20161214'
+   (0008, 0013) Instance Creation Time              TM: '103746.341'
+   (0008, 0014) Instance Creator UID                UI: 1.3.6.1.4.1.5962.99.1.4264118595.77127834.1481732901187.192.0
+   (0008, 1150) Referenced SOP Class UID            UI: Modality Performed Procedure Step SOP Class
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.3.6.1.4.1.5962.99.1.4264118595.77127834.1481732901187.2581.0
+   (0020, 0013) Instance Number                     IS: "0"
+   ---------
+(0008, 1140)  Referenced Image Sequence   3 item(s) ---- 
+   (0008, 1150) Referenced SOP Class UID            UI: MR Image Storage
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.3.6.1.4.1.5962.99.1.4264118595.77127834.1481732901187.2871.0
+   ---------
+   (0008, 1150) Referenced SOP Class UID            UI: MR Image Storage
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.3.6.1.4.1.5962.99.1.4264118595.77127834.1481732901187.2611.0
+   ---------
+   (0008, 1150) Referenced SOP Class UID            UI: MR Image Storage
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.3.6.1.4.1.5962.99.1.4264118595.77127834.1481732901187.2635.0
+   ---------
+(0010, 0010) Patient's Name                      PN: 'SENC3032'
+(0010, 0020) Patient ID                          LO: 'MR'
+(0010, 0030) Patient's Birth Date                DA: ''
+(0010, 0040) Patient's Sex                       CS: 'M'
+(0010, 1010) Patient's Age                       AS: '035Y'
+(0010, 1030) Patient's Weight                    DS: "90"
+(0010, 2160) Ethnic Group                        SH: ''
+(0010, 21c0) Pregnancy Status                    US: 4
+(0012, 0062) Patient Identity Removed            CS: 'YES'
+(0012, 0063) De-identification Method            LO: ['Deidentified', 'Descriptors retained', 'Patient Characteristics retained', 'Device identity retained', 'Institution identity retained', 'Dates retained', 'Unsafe private removed', 'UIDs remapped']
+(0012, 0064)  De-identification Method Code Sequence   8 item(s) ---- 
+   (0008, 0100) Code Value                          SH: '113100'
+   (0008, 0102) Coding Scheme Designator            SH: 'DCM'
+   (0008, 0104) Code Meaning                        LO: 'Basic Application Confidentiality Profile'
+   ---------
+   (0008, 0100) Code Value                          SH: '210005'
+   (0008, 0102) Coding Scheme Designator            SH: '99PMP'
+   (0008, 0104) Code Meaning                        LO: 'Retain all descriptors unchanged'
+   ---------
+   (0008, 0100) Code Value                          SH: '113108'
+   (0008, 0102) Coding Scheme Designator            SH: 'DCM'
+   (0008, 0104) Code Meaning                        LO: 'Retain Patient Characteristics Option'
+   ---------
+   (0008, 0100) Code Value                          SH: '113109'
+   (0008, 0102) Coding Scheme Designator            SH: 'DCM'
+   (0008, 0104) Code Meaning                        LO: 'Retain Device Identity Option'
+   ---------
+   (0008, 0100) Code Value                          SH: '210006'
+   (0008, 0102) Coding Scheme Designator            SH: '99PMP'
+   (0008, 0104) Code Meaning                        LO: 'Retain institution identity'
+   ---------
+   (0008, 0100) Code Value                          SH: '113106'
+   (0008, 0102) Coding Scheme Designator            SH: 'DCM'
+   (0008, 0104) Code Meaning                        LO: 'Retain Longitudinal Temporal Information Full Dates Option'
+   ---------
+   (0008, 0100) Code Value                          SH: '113111'
+   (0008, 0102) Coding Scheme Designator            SH: 'DCM'
+   (0008, 0104) Code Meaning                        LO: 'Retain Safe Private Option'
+   ---------
+   (0008, 0100) Code Value                          SH: '210001'
+   (0008, 0102) Coding Scheme Designator            SH: '99PMP'
+   (0008, 0104) Code Meaning                        LO: 'Remap UIDs'
+   ---------
+(0018, 0015) Body Part Examined                  CS: ''
+(0018, 0020) Scanning Sequence                   CS: 'GR'
+(0018, 0021) Sequence Variant                    CS: 'SK'
+(0018, 0022) Scan Options                        CS: 'FS'
+(0018, 0023) MR Acquisition Type                 CS: '2D'
+(0018, 0050) Slice Thickness                     DS: "10"
+(0018, 0080) Repetition Time                     DS: "13.1458997726440"
+(0018, 0081) Echo Time                           DS: "0.712"
+(0018, 0083) Number of Averages                  DS: "1"
+(0018, 0084) Imaging Frequency                   DS: "63.872855"
+(0018, 0085) Imaged Nucleus                      SH: '1H'
+(0018, 0086) Echo Number(s)                      IS: "1"
+(0018, 0087) Magnetic Field Strength             DS: "1.5"
+(0018, 0088) Spacing Between Slices              DS: "10"
+(0018, 0089) Number of Phase Encoding Steps      IS: "64"
+(0018, 0091) Echo Train Length                   IS: "3"
+(0018, 0093) Percent Sampling                    DS: "100"
+(0018, 0094) Percent Phase Field of View         DS: "100"
+(0018, 0095) Pixel Bandwidth                     DS: "500"
+(0018, 1000) Device Serial Number                LO: '22235'
+(0018, 1010) Secondary Capture Device ID         LO: ''
+(0018, 1016) Secondary Capture Device Manufactur LO: ''
+(0018, 1018) Secondary Capture Device Manufactur LO: ''
+(0018, 1019) Secondary Capture Device Software V LO: ''
+(0018, 1020) Software Version(s)                 LO: ['5.1.8', '5.1.8.0']
+(0018, 1022) Video Image Format Acquired         SH: ''
+(0018, 1023) Digital Image Format Acquired       LO: ''
+(0018, 1030) Protocol Name                       LO: 'WIP SURVEY CLEAR'
+(0018, 1060) Trigger Time                        DS: "44"
+(0018, 1081) Low R-R Value                       IS: "0"
+(0018, 1082) High R-R Value                      IS: "0"
+(0018, 1083) Intervals Acquired                  IS: "0"
+(0018, 1084) Intervals Rejected                  IS: "0"
+(0018, 1088) Heart Rate                          IS: "95"
+(0018, 1094) Trigger Window                      IS: "0"
+(0018, 1100) Reconstruction Diameter             DS: "256"
+(0018, 1250) Receive Coil Name                   SH: 'SYN_CARDIAC'
+(0018, 1310) Acquisition Matrix                  US: [64, 0, 0, 3]
+(0018, 1312) In-plane Phase Encoding Direction   CS: 'OTHER'
+(0018, 1314) Flip Angle                          DS: "30"
+(0018, 1316) SAR                                 DS: "0.24134922027587"
+(0018, 1318) dB/dt                               DS: "118.201042175292"
+(0018, 5100) Patient Position                    CS: 'HFS'
+(0018, 9073) Acquisition Duration                FD: 0.6315789222717285
+(0018, 9087) Diffusion b-value                   FD: 0.0
+(0018, 9089) Diffusion Gradient Orientation      FD: [0.0, 0.0, 0.0]
+(0018, a001)  Contributing Equipment Sequence   1 item(s) ---- 
+   (0008, 0070) Manufacturer                        LO: 'PixelMed'
+   (0008, 1010) Station Name                        SH: 'TAU_11112'
+   (0008, 1090) Manufacturer's Model Name           LO: 'DicomCleaner'
+   (0018, 1020) Software Version(s)                 LO: 'Sun Dec 13 16:51:47 EST 2015'
+   (0018, a002) Contribution DateTime               DT: '20161214182837.953+0100'
+   (0018, a003) Contribution Description            ST: 'Cleaned'
+   (0040, a170)  Purpose of Reference Code Sequence   1 item(s) ---- 
+      (0008, 0100) Code Value                          SH: '109104'
+      (0008, 0102) Coding Scheme Designator            SH: 'DCM'
+      (0008, 0104) Code Meaning                        LO: 'De-identifying Equipment'
+      ---------
+   ---------
+(0020, 000d) Study Instance UID                  UI: 1.3.6.1.4.1.5962.99.1.4264118595.77127834.1481732901187.2583.0
+(0020, 000e) Series Instance UID                 UI: 1.3.6.1.4.1.5962.99.1.4264118595.77127834.1481732901187.3363.0
+(0020, 0010) Study ID                            SH: ''
+(0020, 0011) Series Number                       IS: "1001"
+(0020, 0012) Acquisition Number                  IS: "10"
+(0020, 0013) Instance Number                     IS: "1"
+(0020, 0032) Image Position (Patient)            DS: ['1.24472573399544', '-104.94187387824', '165.860150262713']
+(0020, 0037) Image Orientation (Patient)         DS: ['-0.3720288276672', '0.87633544206619', '-0.3059914410114', '0.63523060083389', '0', '-0.7723225355148']
+(0020, 0052) Frame of Reference UID              UI: 1.3.6.1.4.1.5962.99.1.4264118595.77127834.1481732901187.2585.0
+(0020, 0060) Laterality                          CS: ''
+(0020, 0100) Temporal Position Identifier        IS: "1"
+(0020, 0105) Number of Temporal Positions        IS: "1"
+(0020, 1040) Position Reference Indicator        LO: ''
+(0020, 1041) Slice Location                      DS: "-5102.9481232279"
+(0028, 0002) Samples per Pixel                   US: 1
+(0028, 0004) Photometric Interpretation          CS: 'MONOCHROME2'
+(0028, 0010) Rows                                US: 256
+(0028, 0011) Columns                             US: 256
+(0028, 0030) Pixel Spacing                       DS: ['1', '1']
+(0028, 0100) Bits Allocated                      US: 16
+(0028, 0101) Bits Stored                         US: 12
+(0028, 0102) High Bit                            US: 11
+(0028, 0103) Pixel Representation                US: 0
+(0028, 1050) Window Center                       DS: "1070"
+(0028, 1051) Window Width                        DS: "1860"
+(0028, 1052) Rescale Intercept                   DS: "0"
+(0028, 1053) Rescale Slope                       DS: "6.00903540903540"
+(0028, 1054) Rescale Type                        LO: 'normalized'
+(0032, 1060) Requested Procedure Description     LO: 'Magnetic Resonance'
+(0032, 1070) Requested Contrast Agent            LO: ''
+(0032, 4000) Study Comments                      LT: ''
+(0040, 0241) Performed Station AE Title          AE: 'MR_STORE_EXP'
+(0040, 0242) Performed Station Name              SH: ''
+(0040, 0244) Performed Procedure Step Start Date DA: '20161214'
+(0040, 0245) Performed Procedure Step Start Time TM: '103746'
+(0040, 0250) Performed Procedure Step End Date   DA: '20161214'
+(0040, 0251) Performed Procedure Step End Time   TM: '103746'
+(0040, 0252) Performed Procedure Step Status     CS: ''
+(0040, 0254) Performed Procedure Step Descriptio LO: 'DSMR-Senc'
+(0040, 0255) Performed Procedure Type Descriptio LO: ''
+(0040, 0260)  Performed Protocol Code Sequence   1 item(s) ---- 
+   (0008, 0100) Code Value                          SH: '1040'
+   (0008, 0102) Coding Scheme Designator            SH: '99CDS'
+   (0008, 0104) Code Meaning                        LO: 'Magnetic Resonance'
+   (0008, 010b) Context Group Extension Flag        CS: 'N'
+   ---------
+(0040, 0280) Comments on the Performed Procedure ST: ''
+(0040, 1002) Reason for the Requested Procedure  LO: ''
+(0040, 1003) Requested Procedure Priority        SH: ''
+(0040, 1004) Patient Transport Arrangements      LO: ''
+(0040, 1400) Requested Procedure Comments        LT: ''
+(0040, 2001) Reason for the Imaging Service Requ LO: ''
+(0040, 2004) Issue Date of Imaging Service Reque DA: '20161214'
+(0040, 2005) Issue Time of Imaging Service Reque TM: '103746.295'
+(0040, 2400) Imaging Service Request Comments    LT: 'SPPNSKELLE'
+(2005, 0010) Private Creator                     LO: 'Philips MR Imaging DD 001'
+(2005, 100d) [Unknown]                           FL: 0.0
+(2005, 100e) [Unknown]                           FL: 0.01550393458455801
+(2050, 0020) Presentation LUT Shape              CS: 'IDENTITY'
+(7fe0, 0010) Pixel Data                          OW: Array of 131072 bytes
